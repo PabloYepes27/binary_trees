@@ -87,8 +87,11 @@ Read or watch:
 * [Data Structure and Algorithms - Tree](https://www.tutorialspoint.com/data_structures_algorithms/tree_data_structure.htm)
 * [Tree Traversal](https://www.tutorialspoint.com/data_structures_algorithms/tree_traversal.htm)
 * [Binary Search Tree](https://en.wikipedia.org/wiki/Binary_search_tree)
-* [Data structures: Binary Tree
-](https://www.youtube.com/watch?v=H5JubkIy_p8)
+* []()
+* [Data structures: Binary Tree](https://www.youtube.com/watch?v=H5JubkIy_p8)
+* [How Binary Tree Works | Binary Tree Explained In Under 3 Minutes](https://www.youtube.com/watch?v=ykAbHA-bkKM)
+* [Binary Tree Bootcamp](https://www.youtube.com/watch?v=BHB0B1jFKQc)
+* [Data Structures: Trees](https://www.youtube.com/watch?v=oSWTXtMglKE)
 
 ---
 

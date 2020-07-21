@@ -36,6 +36,27 @@ size_t binary_tree_height(const binary_tree_t *tree)
 }
 
 /**
+ * binary_tree_height2 - measures the height of a binary tree
+ * @tree: pointer to the root node of the tree to measure the height of
+ *
+ * Return: the height of the tree. If tree is NULL, return 0
+ */
+size_t binary_tree_height2(const binary_tree_t *tree)
+{
+	size_t left, right;
+
+	if (tree == NULL)
+		return (0);
+	else if (binary_tree_is_leaf(tree))
+		return (1);
+	left = binary_tree_height2(tree->left);
+	right = binary_tree_height2(tree->right);
+	if (left != right)
+		return (0);
+	return (1);
+}
+
+/**
  * binary_tree_is_perfect - function that checks if a binary tree is perfect
  * @tree:  is a pointer to the root node of the tree to measure
  * the balance factor
@@ -51,7 +72,7 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 	if (binary_tree_height(tree->left) ==
 		binary_tree_height(tree->right))
 	{
-		if (binary_tree_height(tree->left) && binary_tree_height(tree->right))
+		if (binary_tree_height2(tree->left) && binary_tree_height2(tree->right))
 			return (1);
 	}
 	return (0);
